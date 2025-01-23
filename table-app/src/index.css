@@ -1,0 +1,157 @@
+/* General reset and body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Container styling */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+thead th {
+    text-align: left;
+    padding: 12px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Button styling */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Add Row and Delete Row buttons container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+/* Add Row button */
+.add-row-btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.add-row-btn:hover {
+    background-color: #45a049;
+}
+
+/* Delete Row button */
+.delete-row-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.delete-row-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Override react-select dropdown styles */
+.react-select__menu {
+    z-index: 9999 !important;  /* Ensure the dropdown appears on top of other elements */
+}
+
+/* Optional: Customize the dropdown size and styling */
+.react-select__control {
+    min-width: 200px;  /* Ensure the control width is adequate */
+    box-shadow: none;  /* Remove any default shadow if causing issues */
+}
+
+.react-select__menu-list {
+    max-height: 200px;  /* Adjust max height for better visibility */
+    overflow-y: auto;  /* Ensure dropdown has scrollable items */
+}
+
+/* Responsive table styling */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    thead th {
+        padding: 10px;
+    }
+
+    tbody td {
+        padding: 10px;
+    }
+
+    button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .add-row-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .delete-row-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
