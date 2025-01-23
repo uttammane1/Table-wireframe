@@ -16,10 +16,12 @@ You can try out the project directly in your browser by visiting the following l
 
 ## Screenshots
 
-![Dark Mode Screenshot](path_to_your_dark_mode_screenshot.png)
+![Macbook-Air-table-wireframe-chi vercel app (1)](https://github.com/user-attachments/assets/c3227351-6d9d-4ae2-b635-b4de4685298a)
+
 *Dark Mode View*
 
-![Light Mode Screenshot](path_to_your_light_mode_screenshot.png)
+![Macbook-Air-table-wireframe-chi vercel app](https://github.com/user-attachments/assets/855703c2-0c0b-4e88-94bc-b04c97b0fbbc)
+
 *Light Mode View*
 
 ## How It Works
@@ -36,11 +38,4 @@ You can try out the project directly in your browser by visiting the following l
 4. **Responsive Design**:  
    The table layout adapts to different screen sizes using CSS media queries. The table and buttons will adjust to fit smaller screens when viewed on mobile devices.
 
-## Installation Guide
 
-Follow these steps to get the project up and running on your local machine:
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/dynamic-table-with-dropdowns.git
